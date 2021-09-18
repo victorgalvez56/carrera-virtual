@@ -1,0 +1,7 @@
+<?xml version='1.0' encoding='utf-8'?>
+<resources>
+    <string name="app_name">CarreraVirtual</string>
+    <string name="title_activity_main">CarreraVirtual</string>
+    <string name="package_name">com.carreravirtual.app</string>
+    <string name="custom_url_scheme">com.carreravirtual.app</string>
+</resources>

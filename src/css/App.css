@@ -1,0 +1,224 @@
+/*GLOBAL VARS*/
+@import url("https://fonts.googleapis.com/css2?family=Raleway:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap");
+
+:root {
+  --main-primary: #f8bd00;
+  --main-primary-hover: #fcd146;
+  --main-secondary: #0695d7;
+
+  --main-white: rgba(255, 255, 255, 1);
+  --main-red: rgb(227, 12, 24);
+  --main-red-hover: #b40e17;
+  --main-dark: #101010;
+  --main-deep-dark: rgba(0, 0, 0);
+  --main-grey: rgba(153, 153, 153);
+  --main-grey-hover: rgba(153, 153, 153, 0.912);
+  --font-dark: #181818;
+  --font-white: #ffffff;
+  --font-record: #0695d7;
+  --disabled: #c5c5c5;
+  --main-green: #77d867;
+  --main-orange: #f9894a;
+  --main-yellow: #ffc217;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+html {
+  min-height: 100%;
+}
+
+body {
+  /*font-family: Helvetica, sans-serif;*/
+  font-family: "Raleway", sans-serif !important;
+  -webkit-font-smoothing: antialiased;
+  background: var(--main-deep-dark);
+  color: #fff;
+}
+
+body {
+  touch-action: pan-x pan-y;
+}
+
+a {
+  text-decoration: none;
+  color: #fff;
+}
+
+.MuiMenu-list a {
+  color: black !important;
+}
+
+a:hover {
+  text-decoration: underline;
+}
+
+.lightLink {
+  text-decoration: none;
+  color: var(--main-red);
+}
+
+.center {
+  text-align: center;
+}
+
+div::-webkit-scrollbar {
+  display: none !important;
+}
+p {
+  word-break: normal;
+}
+
+.bold {
+  font-weight: bold;
+}
+
+.fright {
+  float: right;
+}
+
+.fleft {
+  float: left;
+}
+
+.text-red {
+  color: var(--main-red) !important;
+}
+
+.bottom-linear {
+  margin-top: -4px;
+  margin-bottom: 0px;
+  width: 100%;
+  background-color: var(--main-primary);
+  height: 1vh;
+}
+.linear {
+  margin-top: 0px;
+  margin-bottom: 0px;
+  width: 100%;
+  background-color: var(--main-primary);
+  height: 0.5vh;
+}
+.menu {
+  display: inline-flex;
+  flex-flow: column;
+  list-style: none;
+  padding: 0;
+  width: 100%;
+  margin: 0;
+  text-align: center;
+}
+.menu > div {
+  background-image: url("https://www.w3schools.com/howto/img_nature_wide.jpg");
+  background-size: cover;
+  display: inline-block;
+  margin-bottom: 1rem;
+  border-bottom: 0.5vh solid var(--main-primary);
+  width: 100%;
+  height: 10vh;
+  margin-bottom: 0;
+}
+
+.contenedor-footer {
+  text-align: center;
+  background-color: #0194c8;
+  display: flex;
+  align-items: center;
+  flex-direction: row;
+  flex-wrap: wrap;
+  height: 13.5vh;
+}
+
+.item-first {
+  width: 33.33%;
+  height: 100%;
+  border-right: 0.5vh solid var(--main-primary);
+}
+.item-second {
+  width: 33.33%;
+  height: 100%;
+}
+.item-last {
+  width: 33.33%;
+  height: 100%;
+  border-left: 0.5vh solid var(--main-primary);
+}
+
+.content-social {
+  height: 100%;
+  width: 100%;
+  background-color: #0194c8;
+  border-color: #0194c8;
+  color: white;
+  border-width: 0;
+  justify-content: center;
+}
+
+/* svg.MuiSvgIcon-root {
+  fill: currentColor;
+  width: 2em;
+  height: 2em;
+  display: inline-block;
+  font-size: 1.5rem;
+  transition: fill 200ms cubic-bezier(0.4, 0, 0.2, 1) 0ms;
+  flex-shrink: 0;
+  user-select: none;
+} */
+
+.text-primary-list {
+  color: var(--font-dark);
+}
+.text-secondary-list {
+  color: var(--font-dark);
+}
+.styles-iframe {
+  width: 100%;
+  height: 68.5vh;
+}
+
+.cameraPreview {
+  display: flex;
+  width: 100%;
+  height: 100%;
+  position: absolute;
+}
+.image-overlay {
+  z-index: 10;
+  position: absolute;
+  right: 0;
+  top: 25%;
+  width: 50px;
+  height: 200px;
+}
+#capture {
+  position: absolute;
+  bottom: 30px;
+  left: calc(50% - 25px);
+  width: 50px;
+  height: 50px;
+  color: blue;
+}
+
+#close {
+  position: absolute;
+  bottom: 30px;
+  left: calc(50% - 175px);
+  width: 50px;
+  height: 50px;
+  color: blue;
+}
+#flip {
+  position: absolute;
+  bottom: 30px;
+  left: calc(50% + 125px);
+  width: 50px;
+  height: 50px;
+  color: blue;
+}
+html,
+body,
+.container-selfie {
+  background-color: transparent !important;
+}

@@ -1,0 +1,6 @@
+{
+	"appId": "com.carreravirtual.app",
+	"appName": "CarreraVirtual",
+	"webDir": "build",
+	"bundledWebRuntime": false
+}
